@@ -1,0 +1,23 @@
+
+<div class="container full-height">
+
+    <div class="row">
+        <div class="col-md-12">
+            <h1>{{title}}</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 menu">
+            <ul>
+                <li><a [routerLink]="['Heroes']">Heroes</a></li>
+                <li><a [routerLink]="['HeroesAdd']">Add Hero</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="full-height">
+        <router-outlet></router-outlet>
+    </div>
+
+</div>

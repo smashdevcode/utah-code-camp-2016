@@ -1,0 +1,21 @@
+
+<div>
+
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input id="name" type="text" class="form-control" [(ngModel)]="hero.name">
+    </div>
+
+    <div class="form-group">
+        <label for="team">Team:</label>
+        <select id="team" class="form-control" [(ngModel)]="hero.team">
+            <option value="Blue">Cap's Team (Blue)</option>
+            <option value="Red">Tony's Team (Red)</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <button (click)="addHero()" class="btn btn-default btn-lg">Add Hero</button>
+    </div>
+
+</div>

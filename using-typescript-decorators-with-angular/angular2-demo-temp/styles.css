@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+    text-transform: uppercase;
+    font-family: 'Squada One', cursive;
+}
+h1 {
+    font-size: 7em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+h2 {
+    font-size: 5em;
+    text-align: center;
+    color: #fff;
+}
+.container {
+    background-color: #000;
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.full-height {
+    height: 100%;
+}
+.menu {
+    text-align: center;
+}
+.menu > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu > ul > li {
+    font-size: 3em;
+    display: inline;
+    margin: 0 1em;
+    padding: 0;
+}
+ul.heroes {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.heroes > li {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    dislay: block;
+    text-align: center;
+    color: #fff;
+}
+label {
+    color: #fff;
+    font-size: 2em;
+}
+.form-group {
+    width: 60%;
+    margin: 2em auto;
+}
+.form-control {
+    font-size: 2em;
+    height: 50px;
+    text-transform: uppercase;
+}
+.btn-lg {
+    font-size: 2em;
+    margin: 1em 0 2em 0;
+}

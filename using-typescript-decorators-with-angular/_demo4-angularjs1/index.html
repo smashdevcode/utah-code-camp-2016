@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>AngularJS 1 Demo</title>
+
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="app/main.js"></script>
+    <!-- <script src="app/controller-decorator.js"></script> -->
+    <!-- <script src="app/injectable-decorator.js"></script> -->
+    <!-- <script src="app/data-service.js"></script> -->
+    <script src="app/test-controller.js"></script>
+  </head>
+  <body ng-app="app">
+
+    <div ng-controller="TestController as vm">
+      {{ vm.getContent() }}
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+    "version": "1.7.5",
+    "compilerOptions": {
+        "target": "es5",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "sourceMap": false,
+        "module": "system",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts",
+        "!./typings/main.d.ts",
+        "!./typings/main/**/*.d.ts"
+    ],
+    "files": [
+        "./app/log-decorator.ts",
+        "./app/main.ts",
+        "./app/my-class.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

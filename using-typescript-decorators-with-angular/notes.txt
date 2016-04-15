@@ -1,0 +1,50 @@
+
+TODO
+
+Write up notes for demos
+
+Demos
+    Simple class and method decorators
+        Just initially log statements
+        Show the arguments that are passed
+    Walk through generated code?
+    What can we do with property descriptors?
+        Show property descriptor demos
+    Setup "readonly" decorator
+    Setup Angular 1.x "controller" decorator
+        Registers controller
+        Adds "$inject" static property
+    Show Angular 2 demo
+
+
+
+
+
+
+Create ngForward demos
+    Just write a version of my demo app using ngForward???
+    Or create a small, simple demo???
+
+Look for libraries that make Angular 1.x controllers look more like Angular 2 components
+    ngDecorate
+        https://github.com/OvidiuGuta/ngDecorate
+    Angular2 Now
+        https://github.com/pbastowski/angular2-now
+    Angular Decorators
+        https://github.com/MikeRyan52/angular-decorators
+
+Metadata Reflection API (by Jonathan Turner)
+    https://github.com/jonathandturner/decorators/blob/master/specs/metadata.md
+
+Experiment with class, method, and parameter decorators
+    What can you do with each of these???
+
+What does support for decorators look like in Babel???
+    Babel 5 had support
+    Babel 6 currently does not... but you can add back support via a plug-in
+
+Review MDN documentation for...
+    Proxy
+        ???
+    Reflect
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect
