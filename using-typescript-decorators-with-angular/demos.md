@@ -78,60 +78,6 @@ Do TypeScript decorators work in all browsers?
 * Do you have to have the experimental decorators option enabled?
 * Yes... or else you get a compiler warning :)
 
-## Decorator Demo: @readonly
-
-### Scenario
-
-Imagine that we have a class property that we want to be readonly. We could manually create a getter only property, but again, that's repetitive work. Let's create a decorator to make our lives easier.
-
-1. Add `readonly-decorator.ts` file
-
-snippet: \_readonlydecorator
-
-```
-export function readonly(target: Object, propertyKey: string) {
-  // property value
-  var _val = target[propertyKey],
-    isSet = false;
-
-  console.log(target[propertyKey]);
-  console.log(_val);
-
-  // property getter
-  var getter = () => {
-    console.log(`Get: ${propertyKey} => ${_val}`);
-    return _val;
-  };
-
-  // property setter
-  var setter = (newVal) => {
-    // only allow the property to be set once
-    if (!isSet) {
-      console.log(`Set: ${propertyKey} => ${newVal}`);
-      _val = newVal;
-      isSet = true;
-    } else {
-      throw `Unable to set property value '${newVal}' on readonly property '${propertyKey}'.`;
-    }
-  };
-
-  // delete the property
-  if (delete target[propertyKey]) {
-    // create new property with getter and setter
-    Object.defineProperty(target, propertyKey, {
-      get: getter,
-      set: setter,
-      enumerable: true,
-      configurable: true
-    });
-  }
-}
-```
-
-2. Import `readonly` into the `my-class.ts` file
-
-3. Add `@readonly` decorator to the `myProp` property
-
 ## Angular 2 Demo
 
 Angular 2 relies heavily upon decorators. Let's walk through an example.

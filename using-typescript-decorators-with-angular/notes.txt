@@ -1,7 +1,20 @@
 
 TODO
 
-Write up notes for demos
+Update slides with examples of decorators???
+    Use examples from the decorator library on GitHub
+
+Review other demos in the project
+    Remove any that can be removed
+
+Practice demos
+
+Include completed demos in the project
+
+
+
+
+
 
 Demos
     Simple class and method decorators
