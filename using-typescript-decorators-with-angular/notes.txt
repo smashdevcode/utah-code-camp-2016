@@ -1,8 +1,9 @@
 
 TODO
 
-Update slides with examples of decorators???
-    Use examples from the decorator library on GitHub
+
+
+
 
 Review other demos in the project
     Remove any that can be removed
@@ -14,20 +15,6 @@ Include completed demos in the project
 
 
 
-
-
-Demos
-    Simple class and method decorators
-        Just initially log statements
-        Show the arguments that are passed
-    Walk through generated code?
-    What can we do with property descriptors?
-        Show property descriptor demos
-    Setup "readonly" decorator
-    Setup Angular 1.x "controller" decorator
-        Registers controller
-        Adds "$inject" static property
-    Show Angular 2 demo
 
 
 
@@ -48,9 +35,6 @@ Look for libraries that make Angular 1.x controllers look more like Angular 2 co
 
 Metadata Reflection API (by Jonathan Turner)
     https://github.com/jonathandturner/decorators/blob/master/specs/metadata.md
-
-Experiment with class, method, and parameter decorators
-    What can you do with each of these???
 
 What does support for decorators look like in Babel???
     Babel 5 had support
