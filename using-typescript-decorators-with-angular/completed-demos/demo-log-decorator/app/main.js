@@ -1,6 +1,4 @@
-System.register(['./my-class'], function(exports_1, context_1) {
-    "use strict";
-    var __moduleName = context_1 && context_1.id;
+System.register(['./my-class'], function(exports_1) {
     var my_class_1;
     var myClass, myProp;
     return {
