@@ -9,7 +9,7 @@ Imagine that we want to debug what is happening inside of our method `myMethod`.
 
 1. Add `log-decorator.ts` file
 
-snippet: \_logdecorator
+snippet: \_ld
 
 ```
 // interface TypedPropertyDescriptor<T> {
@@ -84,7 +84,7 @@ Angular 2 relies heavily upon decorators. Let's walk through an example.
 
 1. Add an `app.component.ts` file
 
-Snippet: \_a2component
+Snippet: \_a2c
 
 ```
 import {Component} from 'angular2/core';
@@ -107,7 +107,7 @@ export class AppComponent {
 
 2. Bootstrap the app
 
-Snippet: \_a2bootstrap
+Snippet: \_a2b
 
 ```
 import {bootstrap} from 'angular2/platform/browser';
@@ -118,7 +118,7 @@ bootstrap(AppComponent);
 
 3. Add a `data.service.ts` file
 
-Snippet: \_a2dataservice
+Snippet: \_a2ds
 
 ```
 import {Injectable} from 'angular2/core';
@@ -133,7 +133,7 @@ export class DataService {
 
 4. Update the `app.component.ts` file to inject the data service
 
-Snippet: \_a2updatedcomponent
+Snippet: \_a2uc
 
 ```
 import {Component} from 'angular2/core';
@@ -164,7 +164,7 @@ What about AngularJS 1? Can we leverage some of the same Angular 2 techniques fo
 
 Let's add a `@controller` decorator to our test controller.
 
-Snippet: \_a1controller
+Snippet: \_a1c
 
 ```
 namespace AngularDemo {
@@ -183,7 +183,7 @@ namespace AngularDemo {
 
 Now we need to add the controller decorator.
 
-Snippet: \_a1decoratorcontroller
+Snippet: \_a1dc
 
 ```
 namespace AngularDemo {
@@ -201,7 +201,7 @@ We're back!
 
 Let's add a data service.
 
-Snippet: \_a1dataservice
+Snippet: \_a1ds
 
 ```
 namespace AngularDemo {
@@ -221,7 +221,7 @@ _Be sure to add the `<script>` tag to the `index.html` file!_
 
 Let's update the test controller to use our data service.
 
-Snippet: \_a1update1controller
+Snippet: \_a1u1c
 
 ```
 namespace AngularDemo {
@@ -245,7 +245,7 @@ namespace AngularDemo {
 
 Let's improve our data service by using a decorator.
 
-Snippet: \_updatedataservice
+Snippet: \_a1uds
 
 ```
 namespace AngularDemo {
@@ -264,7 +264,7 @@ namespace AngularDemo {
 
 We need to add the injectable decorator.
 
-Snippet: \_a1decoratorinjectable
+Snippet: \_a1di
 
 ```
 namespace AngularDemo {
@@ -281,7 +281,7 @@ And we're back!
 
 Let's finish by improving how we inject the data service into the test controller.
 
-Snippet: \_a1update2controller
+Snippet: \_a1u2c
 
 ```
 namespace AngularDemo {
@@ -305,7 +305,7 @@ namespace AngularDemo {
 
 We need to update the controller decorator to accept a config object.
 
-Snippet: \_a1updatedecoratorcontroller
+Snippet: \_a1udc
 
 ```
 namespace AngularDemo {

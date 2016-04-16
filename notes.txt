@@ -1,7 +1,8 @@
 
 
 Prep before talk
-  Copy repo to my desktop
+  Copy demos to my desktop
+  Add build task for each project
   Setup WiFi
   Setup tablet
 
