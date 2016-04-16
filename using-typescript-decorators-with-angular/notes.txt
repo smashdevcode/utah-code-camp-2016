@@ -5,12 +5,8 @@ TODO
 
 
 
-Review other demos in the project
-    Remove any that can be removed
-
 Practice demos
 
-Include completed demos in the project
 
 
 
